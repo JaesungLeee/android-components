@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Foreground_Service_Music_Player</string>
+    <string name="start_service_button_text">START</string>
+    <string name="stop_service_button_text">STOP</string>
+</resources>
