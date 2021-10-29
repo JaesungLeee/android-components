@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bound_Service_Demo</string>
+    <string name="textView_text">Random Number is</string>
+    <string name="bind_service_button_text">Bind Service</string>
+    <string name="generate_number_button_text">Generate Random Number</string>
+    <string name="unbind_service_button_text">Unbind Service</string>
+</resources>
