@@ -7,9 +7,7 @@ import com.jslee.foreground_service_music_player.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private val binding by lazy {
-        ActivityMainBinding.inflate(layoutInflater)
-    }
+    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding.startServiceButton.setOnClickListener {
             val intent = Intent(this, MusicPlayService::class.java).apply {
                 action = UserActions.START_FOREGROUND
-            }
+          }
             startService(intent)
         }
 
