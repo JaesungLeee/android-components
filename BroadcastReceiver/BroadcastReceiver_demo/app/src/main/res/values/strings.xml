@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BroadcastReceiver_demo</string>
+    <string name="send_broadcast_button_text">Check Wi-Fi Status</string>
 </resources>
